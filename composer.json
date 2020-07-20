@@ -1,0 +1,35 @@
+{
+    "name": "mvaliolahi/request-hydrator",
+    "description": "Laravel Request Hydrator Package.",
+    "authors": [
+        {
+            "name": "Meysam Valiolahi",
+            "email": "mvaliolahi@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mvaliolahi\\RequestHydrator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mvaliolahi\\RequestHydrator\\ServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5",
+        "orchestra/testbench": "^5.1",
+        "laravel/framework": "^7.2",
+        "mvaliolahi/hydrate": "^1.0.1"
+    }
+}
